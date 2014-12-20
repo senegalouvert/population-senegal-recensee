@@ -1,6 +1,13 @@
 {
   "title": "Population du Sénégal recensée",
   "name": "population-senegal-recensee",
+  "description": "La population du Sénégal recensée au moment du dénombrement de 1976, 1988, 2002, 2013",
+    "keywords": [
+        "population",
+        "senegal",
+        "recensement"
+    ],
+  "datapackage_version": "1.0-beta.10",
   "sources": [{
         "name": "Recensement Général de la Population et de l’Habitat, de l’Agriculture et de l’Elevage (RGPHAE 2013)",
         "web": "http://www.ansd.sn/ressources/RGPHAE-2013/ressources/doc/pdf/2.pdf"
