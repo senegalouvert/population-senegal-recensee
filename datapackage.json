@@ -1,0 +1,59 @@
+{
+  "title": "Population du Sénégal recensée",
+  "name": "population-senegal-recensee",
+  "sources": [{
+        "name": "Recensement Général de la Population et de l’Habitat, de l’Agriculture et de l’Elevage (RGPHAE 2013)",
+        "web": "http://www.ansd.sn/ressources/RGPHAE-2013/ressources/doc/pdf/2.pdf"
+    }],
+    "contributors":[ {
+        "name": "Mamadou Diagne",
+        "email": "genova@dofbi.com",
+        "web": "https://github.com/genova"
+    }],
+    "licenses": [
+        {
+            "id": "odc-pddl",
+            "name": "Public Domain Dedication and License",
+            "version": "1.0",
+            "url": "http://opendatacommons.org/licenses/pddl/1.0/"
+        }
+    ],
+  "resources": [
+    {
+      "name": "Population du Sénégal recensée",
+      "url": "https://github.com/senegalouvert/population-senegal-recensee/raw/master/data/population_senegal_recensee.csv",
+      "path": "data/population_senegal_recensee.csv",
+      "mediatype": "text/csv",
+      "bytes": 224,
+      "schema": {
+        "fields": [
+          {
+            "name": "Année",
+            "type": "date",
+            "format": "yyyy"
+          },
+          {
+            "name": "Homme",
+            "type": "integer"
+          },
+          {
+            "name": "Femme",
+            "type": "integer"
+          },
+          {
+            "name": "Urbaine",
+            "type": "integer"
+          },
+          {
+            "name": "Rurale",
+            "type": "integer"
+          },
+          {
+            "name": "Total",
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  ]
+}
