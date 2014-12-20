@@ -55,5 +55,15 @@
         ]
       }
     }
+  ],
+  "views": [
+    {
+      "id": "graph",
+      "type": "Graph",
+      "state": {
+        "group": "Année",
+        "series": [ "Total","Femme","Homme" ]
+      }
+    }
   ]
 }
