@@ -1,6 +1,3 @@
-population-senegal-recensee
-==================
-
 La population du Sénégal recensée au moment du dénombrement de 1976, 1988, 2002, 2013
 
 ## Population du Sénégal recensée
