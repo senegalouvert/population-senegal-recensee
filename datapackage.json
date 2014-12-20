@@ -62,7 +62,7 @@
       "type": "Graph",
       "state": {
         "group": "Année",
-        "series": [ "Total","Femme","Homme" ]
+        "series": [ "Total" ]
       }
     }
   ]
